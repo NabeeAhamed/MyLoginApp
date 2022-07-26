@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_name"
+            android:textSize="25sp"
+            app:drawableLeftCompat="@drawable/ic_baseline_email_24"
+            app:drawableStartCompat="@drawable/ic_baseline_email_24"
+            app:drawableTint="@color/purple_200" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Enter valid Email here"
+            android:hint="@string/enter_a_valid_name"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/last_name"
+            android:textSize="25sp"
+            app:drawableLeftCompat="@drawable/ic_baseline_lock_24"
+            app:drawableStartCompat="@drawable/ic_baseline_lock_24"
+            app:drawableTint="@color/purple_200" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Enter valid Last Name"
+            android:hint="@string/enter_valid_last_name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/enter_phone_no"
+            android:textSize="25sp"
+            app:drawableLeftCompat="@drawable/ic_baseline_lock_24"
+            app:drawableStartCompat="@drawable/ic_baseline_lock_24"
+            app:drawableTint="@color/purple_200" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Enter valid Phone no"
+            android:hint="enter valid Phone no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/enter_age"
+            android:textSize="25sp"
+            app:drawableLeftCompat="@drawable/ic_baseline_lock_24"
+            app:drawableStartCompat="@drawable/ic_baseline_lock_24"
+            app:drawableTint="@color/purple_200" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Enter valid Age"
+            android:hint="enter_a_valid_Age"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="enter_city_name"
+            android:textSize="25sp"
+            app:drawableLeftCompat="@drawable/ic_baseline_lock_24"
+            app:drawableStartCompat="@drawable/ic_baseline_lock_24"
+            app:drawableTint="@color/purple_200" />
+
+        <EditText
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Enter valid city Name"
+            android:hint="enter_valid_city_name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_activity2"
+            tools:ignore="InvalidId" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/todo1"
+            android:src="@drawable/images" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

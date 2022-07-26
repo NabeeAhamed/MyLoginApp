@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyLoginApp</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="todo">TODO</string>
+    <string name="enter_valid_email_here">Enter valid Email here</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_valid_password">Enter valid Password</string>
+    <string name="login">Login</string>
+    <string name="todo1">TODO</string>
+    <string name="enter_phone_no">Enter phone no</string>
+    <string name="first_name">First Name</string>
+    <string name="enter_a_valid_name">Enter a valid Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_valid_last_name">Enter valid Last Name</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_valid_age">Enter valid Age</string>
+    <string name="enter_city_name">Enter city Name</string>
+    <string name="open_activity2">open activity2</string>
+    <string name="enter_valid_city_name">Enter valid city Name</string>
+    <string name="enter_a_valid_Last_Name" />
+    <string name="enter_a_valid_Age" />
+    <string name="enter_a_valid_City" />
+    <string name="enter_a_valid_Phone" />
+    <string name="enter_valid_Username_here" />
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_valid_username_here">enter valid Username here</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_valid_phone_no">Enter valid Phone no</string>
+    <string name="forget_password">Forget Password</string>
+
+</resources>
