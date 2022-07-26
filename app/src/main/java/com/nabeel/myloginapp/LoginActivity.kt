@@ -30,17 +30,20 @@ class LoginActivity : AppCompatActivity() {
         }
             etLastName.doOnTextChanged { text, _, _, _ ->
                 if ((text?.length ?: 0) < 10) {
-                    etLastName.error = resources.getString(R.string.enter_a_valid_Last_Name)
+                    etLastName.error = "Enter_valid_last_name"
+
+                }
                     etAge.doOnTextChanged { text, _, _, _ ->
                         if ((text?.length ?: 0) < 10) {
-                            etAge.error = resources.getString(R.string.enter_a_valid_Age)
+                            etAge.error = "Enter_a_valid_Age"
+
+                        }
                             etCity.doOnTextChanged { text, _, _, _ ->
                                 if ((text?.length ?: 0) < 10) {
-                                    etCity.error = resources.getString(R.string.enter_a_valid_City)
+                                    etCity.error = "Enter_city_name"
+
+                                }
                                     etPhone.doOnTextChanged { number, _, _, _ ->
                                         if ((text?.length ?: 0) < 10) {
-                                            etPhone.error = resources.getString(R.string.enter_a_valid_Phone)
-
-                                        }
-    }
-}}
+                                            etPhone.error = "Enter_a_valid_Phone"
+                                        }}}}}}}}

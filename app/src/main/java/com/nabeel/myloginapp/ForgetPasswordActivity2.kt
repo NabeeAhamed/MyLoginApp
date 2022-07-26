@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 
 class ForgetPasswordActivity2 : AppCompatActivity() {
-    lateinit var Sign: Button
+   lateinit var Sign: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forget_password2)
