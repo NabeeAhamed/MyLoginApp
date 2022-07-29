@@ -71,24 +71,5 @@ class LoginActivity : AppCompatActivity() {
 
         }
         }
-            etLastName.doOnTextChanged { text, _, _, _ ->
-                if ((text?.length ?: 0) < 10) {
-                    etLastName.error = "Enter_valid_last_name"
-
-                }}
-                    etAge.doOnTextChanged { text, _, _, _ ->
-                        if ((text?.length ?: 0) < 10) {
-                            etAge.error = "Enter_a_valid_Age"
-
-                        }}
-                            etCity.doOnTextChanged { text, _, _, _ ->
-                                if ((text?.length ?: 0) < 10) {
-                                    etCity.error = "Enter_city_name"
-
-                                }}
-                                    etPhone.doOnTextChanged { text, _, _, _ ->
-                                        if ((text?.length ?: 0) < 10) {
-                                            etPhone.error = "Enter_a_valid_Phone"
-                                        }
-                                    }
-        }}
+    }
+}

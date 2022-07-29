@@ -24,9 +24,6 @@
             android:name=".OtpActivity"
             android:exported="false" />
         <activity
-            android:name=".otp"
-            android:exported="false" />
-        <activity
             android:name=".SignIn"
             android:exported="false" />
         <activity
