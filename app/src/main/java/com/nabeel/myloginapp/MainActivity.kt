@@ -34,16 +34,18 @@ class MainActivity() : AppCompatActivity() {
                 etPassword.error = resources.getString(R.string.enter_valid_password)
         }
 
-        btnForgetPassword.setOnClickListener  {
-            var intent= Intent(this, ForgetPasswordActivity2::class.java).apply {
-                startActivity(this)
-            }
-
         btnLogin.setOnClickListener{
-            var intent = Intent(this, LoginActivity::class.java).apply {
+            var intent = Intent(this, LoginActivity::class.java)
+                 startActivity(intent)
+
+
+        }
+
+        btnForgetPassword.setOnClickListener {
+            var intent = Intent(this, ForgetPasswordActivity2::class.java).apply {
                 startActivity(this)
             }
-    }
-    }
+        }
+
 }}
 
